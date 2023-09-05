@@ -5,8 +5,7 @@
     font-family: "general sans";
 }
 
-html,
-body {
+html, body {
     width: 100%;
     height: 100%;
 }
@@ -286,79 +285,4 @@ main {
 }
 .aboutRight ul span{
     font-style: italic;
-}
-
-
-/* ******************************** */
-/* ******************************** */
-/* footer section */
-footer{
-    max-width: 70vw;
-    min-height: 400px;
-    margin: auto;
-    margin-top: 4%;
-    /* opacity: .8; */
-
-}
-
-.footerLinks{
-    background-color: #E1DCC5;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    font-size: .9rem;
-    font-weight: 400;
-}
-footer a{
-    color: #003266;
-}
-#footer li{
-    list-style-type: none;
-    margin: 8px 0;
-}
-.helpicon a{
-    margin: 10px 5px 10px 0;
-    display: inline-block;
-    background-color: black;
-    position: relative;
-    width: 40px;
-    height: 40px;
-    border-radius: 5px;
-}
-.helpicon a img{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-hr{
-    margin: 40px 0;
-}
-
-/* footer details part */
-#footerDetails{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-}
-#footerDetails img{
-    /* margin-right: 10px; */
-    width: 30px;
-    height: 35px;
-}
-#details{
-    font-size: .9rem;
-    text-align: justify;
-    flex: .9;
-}
-#version p{
-    border-radius: 5px;
-    border: 1px solid gray;
-    padding: 10px;
-    font-size: .9rem;
-
 }

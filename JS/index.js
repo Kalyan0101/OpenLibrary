@@ -260,3 +260,11 @@ if (movepart_js.scrollLeft == 0) {
     a_left.style.opacity = .1;
     sub_left.style.opacity = .1;
 }
+
+
+
+// *********************Add Footer********************
+{
+    // load footer file by using ajax
+   $('#footer').load('../HTML/footer.html');
+}
