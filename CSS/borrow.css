@@ -59,3 +59,82 @@ main a{
     color: #666666;
     font-size: 1.17rem;
 }
+
+/* ******************************************************** */
+.contentBody{
+    width: 100%;
+    margin-top: 20px;
+}
+.contentBody p{
+    margin: 20px 0;
+}
+.contentBody iframe{
+    width: 100%;
+    height: 100vh;
+}
+
+.links li{
+    padding: 4px 5px 0;
+    font-size: 1.11rem;
+}
+
+/* *************Second Question************** */
+/* .secondPara ol li{
+    display: block;
+    margin-left: 20px;
+    line-height: 1.65;
+    font-size: 1.2rem;
+} */
+.secondPara span{
+    display: block;
+    font-size: .9rem;
+    margin: 10px 0;
+}
+
+
+/* *************Borrow for Android Question************** */
+#borrow_android .orderGroup{
+    font-size: 1rem;
+}
+
+/* *************History Section************** */
+.history .heading{
+    display: inline-block;
+    margin-right: 12px;
+}
+.author{
+    background-color: #EDEDED;
+    width: 100%;
+    padding: 10px;
+    font-size: .7rem;
+}
+.author a{
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+/* *******************utility classes****************** */
+.orderGroup{
+    line-height: 1.65;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+.top{/* a tag  */
+    display: block;
+    margin: 20px 0;
+    /* height: 40px; */
+}
+.line{
+    border-bottom: 1px dotted #666666;
+    margin: 20px 0;
+}
+
+.heading{
+    color: #666666;
+    margin-bottom: 20px;
+}
