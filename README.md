@@ -6,4 +6,3 @@ borrow.html and borrow.css both pages work complete and borrow.js file has been 
 
 
 
-changed in main branch
