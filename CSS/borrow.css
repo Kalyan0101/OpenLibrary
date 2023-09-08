@@ -16,8 +16,6 @@ main a{
     color: #02598b;
 }
 #container {
-    /* box-sizing: border-box; */
-    /* border: 2px solid black; */
     border-radius: 5px;
     max-width: 70vw;
     /* width: 100%; */

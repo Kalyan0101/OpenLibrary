@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "general sans";
+
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #E1DCC5;
+}
+
+/* main Section */
+main a{
+    color: #02598b;
+}
+#content{
+    border: 1px solid #666666;
+    border-radius: 5px;
+    max-width: 70vw;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+
+    margin-top: 40px;
+}
+
+/* content head section */
+#contentHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+#contentHead h1{
+    color: #666666;
+    font-size: 2.5rem;
+}
+
+.edited{
+    width: 285px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    line-height: 1.45;
+    font-size: .8rem;
+}
+.author{
+    text-align: right;
+}
+#editButton{
+    border: 1px solid #666666;
+    border-radius: 5px;
+    color: #666666;
+    margin-left: 15px;
+    padding: 5px 10px;
+    font-size: 1.37rem;
+    text-decoration: none;
+}
+
+/* content body section */
+#contentBody{
+    margin-top: 30px;
+    padding-left: 10px;
+}
+#contentBody p{
+    margin: 15px 0;
+}
+.unList{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+#reading-log{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #02598b;
+    text-decoration: none;
+}
+#reading-log:hover{
+    text-decoration:underline;
+    color: #34662D;
+}
+
+#contentBody h3{
+    margin: 20px 0;
+}
+/* remove book */
+.linkImg{
+    width: 100%;
+}
+
+/* history section */
+#history .heading{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+table{
+    font-size: .8rem;
+    background-color: #F6F5EE;
+}
+.timeStamp{
+    padding: 10px ;
+    white-space: nowrap;
+
+}
+.detail{
+    width: 100%;
+}
+#createdBy{
+    background-color: #EDEDED;
+}
+
+
+
+
+
+
+
+/* utility class */
+.heading{
+    color: #666666;
+    font-size: 1.4rem;
+}
+.top{
+    display: block;
+    margin: 20px 0;
+}
