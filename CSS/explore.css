@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  monospace;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#container{
+    width: 100vw;
+    background-color: #EBDFC5;
+}
+
+/* *******************navigation Section***************** */
+/* navigation */
+#navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-btn{
+    margin: 20px 5px 40px;  /*top left-rigth bottom*/
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303030;
+    color: white;
+    width: 300px;
+    height: 65px;
+    border-radius: 5px;
+}
+.nav-heading{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+/* navigation left */
+.nav-left{
+    position: relative;
+    left: 0;
+}
+.nav-btn .left{
+    /* text-align: right; */
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+.nav-btn .left span{
+    color: #919191;
+    display: block;
+    text-align: left;
+}
+
+/* navgation right */
+.nav-right{
+    position: relative;
+    right: 0;
+}
+.nav-btn .right{
+    /* text-align: right; */
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+.nav-btn .right span{
+    color: #919191;
+    display: block;
+    text-align: left;
+}
+
+
+/* ****************book shelvs header***************** */
+/* book shelvs header */
+.book-shelvs-header{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 150px;
+    color: white;
+    font-size: 1.2rem;
+}
+.books-catalog-name{
+    padding: 20px 10px 10px 40px;   /*top right bottom left*/
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 85vh;
+    background-color: #232323;
+    color: #919191;
+    font-weight: 600;
+}
+.book-name-header{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+}
+.catalog-details{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #2C2C2C;
+    padding: 5px;
+}
+.catalog-details p{
+    float: right;
+    width: 100px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.catalog-details .material-symbols-outlined{
+    font-size: 23px;
+    /* margin-top: 15px; */
+}
+/* *****************books shelv body***************** */
+/* book shelvs body */
+.book-shelvs-body{
+    margin: 20px;
+    /* width: 500px; */
+    /* height: 500px; */
+    border: 2px solid blue;
+    margin: 20px auto;
+    color: white;
+
+    background: linear-gradient(90deg,rgba(29,5,0,.5),rgba(61,0,0,.1) 20%,transparent,rgba(61,0,0,.1) 60%,rgba(29,5,0,.5)),linear-gradient(180deg,transparent 0,transparent 10px,rgba(255,191,0,.4) 0,rgba(255,191,0,.1) 15px,transparent 50px),linear-gradient(180deg,#543721 0,#5a3b23 10px,#7b5130 0,#5f432d);
+}
+.shelf-header{
+    border: 2px solid red;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shelf-nav{
+    border: 2px dashed green;
+
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 20px;
+    color: #919191;
+}
+.shelf-nav button{
+    font-size: 3rem;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    color: #fafafa;
+}
+.shelf-nav button :hover{
+    background-color: whitesmoke;
+    opacity: .2;
+    color: white;
+}
