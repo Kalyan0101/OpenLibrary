@@ -8,5 +8,5 @@
 
 ### created explore.html, explore.css, explore.js files and started working on it.<br/>
 
-## Santanu paglado6a is comming
+## Santanu
 
