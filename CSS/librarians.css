@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #E1DCC5;
+}
+
+main {
+    border-radius: 5px;
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #FFFFFF;
+}
