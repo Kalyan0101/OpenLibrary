@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "general sans";
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: row; */
+     justify-content: space-around; 
+     align-items: center;
+}
+.logo-component{
+    border: 2px solid black;
+}
+
+.logo-icon{
+    width: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+    width: 189px;
+    height: 47px;
+}
+
+
+.myBooks1{
+    border: 2px solid black;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.box1{
+    border: 2px solid black;
+    display: flex;
+}
+.auth-component{
+    border: 2px solid black;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box3{
+    border: 2px solid black;
+    list-style: none;
+}
+.app-drrawer{
+    border: 2px solid black;
+    
+}
