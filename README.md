@@ -7,5 +7,3 @@
 ### reading-log.html and reading-log.css and reading-log.js files are created and completed.<br/>
 
 ### created explore.html, explore.css, explore.js files and started working on it.<br/>
-
-
