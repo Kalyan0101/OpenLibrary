@@ -8,3 +8,7 @@
 
 ### created explore.html, explore.css, explore.js files and started working on it.<br/>
 
+```
+ Dealy the working of explore page and started working on librarians page
+
+```
