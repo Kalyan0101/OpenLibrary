@@ -8,4 +8,4 @@
 
 ### created explore.html, explore.css, explore.js files and started working on it.<br/>
 
-edited by kalyan
+edited by Santanu
