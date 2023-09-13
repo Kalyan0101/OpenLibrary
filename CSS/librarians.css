@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: general sans;
 }
 html, body{
     width: 100%;
     height: 100%;
 }
 
+/* page defination */
 body {
     background-color: #E1DCC5;
 }
@@ -18,5 +20,96 @@ main {
     margin: auto;
     margin-top: 20px;
     padding: 40px;
+    padding-bottom: 10px;
     background-color: #FFFFFF;
+}
+main a{
+    color: #02598b;
+}
+
+/* Content head */
+#content-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #666666;
+}
+.edited{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .8rem;
+}
+.edited-by p{
+    margin: 0;
+}
+.edit-btn .btn{
+    padding: 10px;
+    font-size: 1rem;
+    color: #666666;
+    background-color: #FFFFFF;
+    border: 1px solid #666666;
+    border-radius: 5px;
+}
+
+/* **************************************************** */
+.home{
+    font-weight: 800;
+    color: black;
+}
+.body-mini-nav p{
+    margin-top: 35px;
+}
+
+/* history section */
+.history{
+    width: 100%;    
+}
+.table{
+    background-color: #F6F5EE;
+    font-size: .8rem;
+}
+.timeStamp{
+    padding: 10px;
+    white-space: nowrap;
+    border-top: 1px solid #dad8cc;
+}
+.comments{
+    padding: 10px;
+    width: 100%;
+    border-top: 1px solid #dad8cc;
+}
+.table tr:last-child{
+    background-color: #EDEDED;
+}
+
+
+/* *********************************************** */
+                    /* utility classes */
+.list{
+    margin: 0 15px;
+}
+.list-2{
+    margin: 0 20px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+p{
+    margin: 20px 0;
+}
+.s-heading{
+    margin: 20px 0;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #666666;
+}
+.link{
+    margin-right: 20px;
 }
