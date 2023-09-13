@@ -8,4 +8,8 @@
 
 ### created explore.html, explore.css, explore.js files and started working on it.<br/>
 
- > **Dealy the working of explore page and started working on librarians page**
+### librarian page Created.<br/>
+
+### librarian page completed.<br/>
+
+ > **Dealy the working of explore page**
