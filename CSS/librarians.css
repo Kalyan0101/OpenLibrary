@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: general sans;
+    font-family: "general sans";
 }
 html, body{
     width: 100%;
@@ -98,7 +98,7 @@ main a{
 }
 .list-2{
     margin: 0 20px;
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     line-height: 1.5;
 }
 p{
